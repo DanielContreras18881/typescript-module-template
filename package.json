@@ -1,0 +1,30 @@
+{
+  "name": "@raix/typescript-node-module-template",
+  "version": "1.0.0",
+  "description": "Typescript node module template with mocha and wallaby tests",
+  "main": "./lib/foo.js",
+  "typings": "./lib/foo.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "mocha --compilers ts:ts-node/register",
+    "test:w": "npm test -- -w"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "modules",
+    "template",
+    "mocha",
+    "wallaby"
+  ],
+  "author": "RaiX (aka Morten Henriksen)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.29",
+    "@types/mocha": "^2.2.28",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "ts-node": "^1.2.1",
+    "typescript": "^2.1.0-dev.20160724"
+  }
+}
