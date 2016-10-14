@@ -6,10 +6,11 @@ module.exports = function (w) {
     },
 
     files: [
-      'src/**/*.ts'
+      { pattern: 'src/**/*.ts', load: false },
     ],
 
     tests: [
+      'package.json',
       'test/**/*.ts'
     ],
 
