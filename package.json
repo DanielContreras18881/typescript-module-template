@@ -21,10 +21,18 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^3.4.29",
+    "@types/lodash": "0.0.29",
     "@types/mocha": "^2.2.28",
+    "@types/node": "^6.0.31",
+    "@types/sinon": "^1.16.27",
     "chai": "^3.5.0",
     "mocha": "^2.5.3",
     "ts-node": "^1.2.1",
     "typescript": "^2.1.0-dev.20160724"
+  },
+  "dependencies": {
+    "@types/sinon": "https://registry.npmjs.org/@types/sinon/-/sinon-1.16.27.tgz",
+    "lodash": "^4.14.1",
+    "sinon": "^1.17.5"
   }
 }
